@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Google</title>
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>
+</head>
+
+<body>
+	<div class="navbar">
+		<ul class="nav">
+			<div id="top-right">
+				<li id="sign-in">
+				<input type="submit" value="Sign in">
+				</li>
+				<li><a class="nav-link" href="#">Box</a></li>
+				<li><a class="nav-link" href="http://www.google.com/imghp">Images</a></li>	
+				<li><a class="nav-link" href="https://www.gmail.com">Gmail</a></li>
+				<li><a class="nav-link" href="https://plus.google.com/u/0/">+You</a></li>
+			</div>
+		</ul>
+	</div>
+
+	<%= yield %>
+
+	<div class="bnavbar">
+		<ul class="bnav">
+			<div id="bottom-left">
+				<li><a class="nav-link" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+				<li><a class="nav-link" href="https://www.google.com/services/?fg=1">Business</a></li>
+				<li><a class="nav-link" href="https://www.google.com/intl/en/about/">About</a></li>
+			</div>
+			<div id="bottom-right">
+				<li><a class="nav-link" href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a></li>
+				<li><label class="nav-link">Settings</label></li>
+			</div>
+		</ul>
+	</div>
+
+
+
+</body>
+</html>
+
+
+
