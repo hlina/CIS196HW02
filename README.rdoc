@@ -1,1 +1,10 @@
-First, I had a routing error in Google. 
+I recreated a page that would look like the Google homepage.
+
+I had trouble getting used to programming in HTML and understanding how CSS work. As a result, I had trouble, for instance, setting the Google icon in the middle of the page and adjusting its size. I used background-height and background-width instead of max-height and max-width, which is necessary since I uploaded the image through HTML. Also, I had trouble with home.css.scss. For an unknown reason, the code in the home.css file was not being implemented into the program. Thus, I just posted all the code for sytling under application.css.scss. 
+
+Project Ideas
+1) I want to create a website for making lists/boards: to-do lists, bucketlists, grocery lists, book lists, movie lists. You would have different files and different formats. For instance, the lists could be like a board of images for books and movies, or on a notepad of text with a button to check off. Finally, there should also be a way to create accounts to share with friends, who not only would be able to see your lists, but also could create shared lists with you for things to do or see.
+
+2) I want to create a website for people to upload their pictures of food to, since a lot of people take pictures of the food they eat. Then, they can rate how much they enjoyed the food, categorizing the food under location, recipe, dessert, etc. Once they've accumulated many pictures, they can reference back to it for good places to eat or good foods to make.
+
+3) I want to create a website similar to the food one, but somewhere you can put books you've read with notes about the books i.e. what you've learned, what happened. There should also be a section for interestng or wise quotes you've heard or read, or funny things that have happened to you. Then, each day, the front page should change to a different quote or a "Remember when..." If you make the website your homepage, you could have a nice quote or "Remember when" for each day.
