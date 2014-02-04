@@ -2,6 +2,8 @@ I recreated a page that would look like the Google homepage.
 
 I had trouble getting used to programming in HTML and understanding how CSS work. As a result, I had trouble, for instance, setting the Google icon in the middle of the page and adjusting its size. I used background-height and background-width instead of max-height and max-width, which is necessary since I uploaded the image through HTML. Also, I had trouble with home.css.scss. For an unknown reason, the code in the home.css file was not being implemented into the program. Thus, I just posted all the code for sytling under application.css.scss. 
 
+http://guarded-reaches-1231.herokuapp.com/
+
 Project Ideas
 1) I want to create a website for making lists/boards: to-do lists, bucketlists, grocery lists, book lists, movie lists. You would have different files and different formats. For instance, the lists could be like a board of images for books and movies, or on a notepad of text with a button to check off. Finally, there should also be a way to create accounts to share with friends, who not only would be able to see your lists, but also could create shared lists with you for things to do or see.
 
